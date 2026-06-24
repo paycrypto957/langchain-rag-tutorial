@@ -12,12 +12,12 @@
 ```
 .
 ├── notebooks/                      # 探索性 notebooks
-│   ├── TestLoadDoc.ipynb           # TextLoader 加载单个 txt
-│   ├── TestLoadAllDoc.ipynb        # 多格式加载器 (txt/md/pdf/docx)
-│   ├── TestRetrieve.ipynb          # bge embedding + Chroma 相似度检索
-│   ├── TestLCEL01.ipynb            # LCEL 入门: prompt | LLM | parser
-│   ├── TestLCEL02.ipynb            # LCEL + 对话历史
-│   └── TestLCEL03.ipynb            # LCEL 进阶组合
+│   ├── document_loading.ipynb      # TextLoader 加载单个 txt
+│   ├── multi_format_loading.ipynb  # 多格式加载器 (txt/md/pdf/docx)
+│   ├── vector_retrieval.ipynb      # bge embedding + Chroma 相似度检索
+│   ├── lcel_basics.ipynb           # LCEL: prompt | LLM | parser
+│   ├── lcel_history.ipynb          # LCEL + 对话历史
+│   └── lcel_advanced.ipynb         # LCEL 进阶组合
 │
 ├── src/                            # 应用主代码
 │   ├── indexing.py                 # 文档入库: 加载/清洗/切分(400/40)/持久化
